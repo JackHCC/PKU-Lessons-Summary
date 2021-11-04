@@ -19,3 +19,6 @@
 - [Embedded Microprocessor System Homework](https://github.com/JackHCC/Embedded-Microprocessor-System-Homework)【嵌入式微处理系统】
 - [IC Design Homework](https://github.com/JackHCC/Digital-Integrated-Circuit-Design)【集成电路设计】
 
+
+
+© 北京大学 [JackHCC](https://github.com/JackHCC)

@@ -1679,3 +1679,8 @@
 - **什么是技术预见？**
 - **什么是德尔菲法？**
 - **会聚技术：NBIC**
+
+
+
+© 北京大学 [JackHCC](https://github.com/JackHCC)
+
