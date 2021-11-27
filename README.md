@@ -12,6 +12,8 @@
 - [Embedded Microprocessor System](https://blog.creativecc.cn/posts/Embedded-Microprocessor-System.html)【嵌入式微处理系统】
 - [IC Design](https://blog.creativecc.cn/posts/embedded-ic-design.html)【集成电路设计】
 - [Financial Engineering](https://blog.creativecc.cn/posts/financial-engineering.html)【金融工程概论】
+- [English](./English/README.md)【英语】
+- Introduction to advanced technology of integrated circuit【集成电路前沿技术导论】
 
 
 
