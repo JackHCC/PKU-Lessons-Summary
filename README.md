@@ -17,10 +17,13 @@
 - [IC Design](https://blog.creativecc.cn/posts/embedded-ic-design.html)【集成电路设计】
   - [Web](https://blog.creativecc.cn/posts/embedded-ic-design.html)
   - [PDF](IC_Design/IC-FPGA.pdf)
+- [Financial Engineering](./Financial_Engineering/README.md)【金融工程概论】
+  - [Web](https://blog.creativecc.cn/posts/financial-engineering.html)
+  - [PDF](./Financial_Engineering/Financial-Engineering.pdf)
 
-- [Financial Engineering](https://blog.creativecc.cn/posts/financial-engineering.html)【金融工程概论】
 - [English](./English/README.md)【英语】
   - [Web](https://blog.creativecc.cn/posts/Lesson-English.html)
+  - [Key Sentence](./English/Key_Sentence.pdf)
 - Introduction to advanced technology of integrated circuit【集成电路前沿技术导论】
 
 
