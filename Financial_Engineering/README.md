@@ -90,11 +90,61 @@
 
 1. 如果有两个资产构成了一个资产组合，且知道两个资产在T时刻的价格S_1^T^和S_2^T^为随机变量，都服从标准正态分布，相关系数为μ。该资产组合有一种衍生品，在T时刻，当S_1^T^>1且S_2^T^<0时，衍生品价值为1；其他情况下，衍生品取值为S_1^T^-S_2^T^。请问，如果您有计算机的话，您将如何估算这个衍生品在T时刻的价值？（可写出您打算采用的算法的伪代码）
 
+- 参考资料
+  - [生成指定相关系数为*ρ* 的两个正态分布随机数](https://blog.sciencenet.cn/blog-107667-1298177.html)
+  - [生成一定相关性的二元正态分布](https://blog.csdn.net/kdazhe/article/details/104599229)
+- 方法一1：X与Y是相关系数为u的正态分布，参数自己设置
 
+```pascal
+Input: 	T 		- Time
+Output: Value 	- Derivative value
+mu1	<- 	0;		// mu1, mu2, sigma1, sigma2根据需要取值，这里简便计算取0和1
+mu2	<-	0;
+simga1	<-	1;
+sigma2	<-	1;
+S_1 <-	t ~ N(0, 1);
+S_2 <-	t ~ N(0, 1);
+S_3 <- 	u * S_1 + sqrt(1 - u * u) * S_2;
+X 	<-	mu1 + sigma1 * S_1;
+Y	<-	mu2 + sigma2 * S_3;
+if S_1(T) > 1 && S_2(T) < 0 then
+	Value	<-	1;
+else then
+	Value	<-	X[T] - Y[T];
+```
 
+- 方法二：X与Y是相关系数为u的标准正态分布
 
+```pascal
+Input: 	T 		- Time
+Output: Value 	- Derivative value
+S_1 <-	t ~ N(0, 1);
+S_2 <-	t ~ N(0, 1);
+theta	<-	arcsin(u) / 2;
+X	<-	cos(theta) * S_1 + sin(theta) * S_2;
+Y	<-	sin(theta) * S_1 + cos(theta) * S_2;
+if S_1(T) > 1 && S_2(T) < 0 then
+	Value	<-	1;
+else then
+	Value	<-	X[T] - Y[T];
+```
 
+- 方法三：X与Y是相关系数为u的均值为0，标准差为sqrt(1-(1-u))的正态分布
 
+```pascal
+Input: 	T 		- Time
+Output: Value 	- Derivative value
+S_1 <-	t ~ N(0, 1);
+S_2 <-	t ~ N(0, 1);
+S_3 <-	t ~ N(0, 1);
+alpha	<-	sqrt(u / (1 - u));
+X	<-	alpha * S_1 + S_2;
+Y	<-	alpha * S_1 + S_3;
+if S_1(T) > 1 && S_2(T) < 0 then
+	Value	<-	1;
+else then
+	Value	<-	X[T] - Y[T];
+```
 
 ### 5. 认真阅读《十四五规划》《中国制造2025》等规划类文件，请在此基础上判断什么产业有较大的发展空间。结合自身特点，阐述你应该如何从这些产业中获得价值。
 
@@ -110,6 +160,8 @@
   - 通过实习接触行业内的需求，分清工业界和学术界的需求和目标，**从而针对性的提升自己的技能**。
 
 
+
+© [JackHCC](https://github.com/JackHCC)
 
 
 
