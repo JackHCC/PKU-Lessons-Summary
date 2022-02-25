@@ -2,7 +2,7 @@
 
 😁Summary of Knowledge Points and Assignments of Peking University Integrated Circuit Major Courses.
 
-北京大学集成电路专业硕士生课程**知识点、作业、考题回忆**等汇总
+北京大学软件与微电子学院硕士生课程**知识点、作业、考题回忆**等汇总！
 
 
 
@@ -29,6 +29,8 @@
 - [Embedded Microprocessor System Homework](https://github.com/JackHCC/Embedded-Microprocessor-System-Homework)【嵌入式微处理系统】
 - [IC Design Homework](https://github.com/JackHCC/Digital-Integrated-Circuit-Design)【集成电路设计】
 - [Introduction to advanced technology of integrated circuit](./Introduction_to_Integrated_Circuits)【集成电路前沿技术导论】
+- [Computer Vision And Augmented Reality](https://github.com/JackHCC/Computer-Vision-And-Augmented-Reality-Homework)【计算机视觉与增强显示】
+- Natural Language Processing【自然语言处理】
 
 
 
