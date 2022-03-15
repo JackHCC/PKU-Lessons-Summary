@@ -29,7 +29,7 @@
 - [Embedded Microprocessor System Homework](https://github.com/JackHCC/Embedded-Microprocessor-System-Homework)【嵌入式微处理系统】
 - [IC Design Homework](https://github.com/JackHCC/Digital-Integrated-Circuit-Design)【集成电路设计】
 - [Introduction to advanced technology of integrated circuit](./Introduction_to_Integrated_Circuits)【集成电路前沿技术导论】
-- [Computer Vision And Augmented Reality](https://github.com/JackHCC/Computer-Vision-And-Augmented-Reality-Homework)【计算机视觉与增强显示】
+- [Computer Vision And Augmented Reality](https://github.com/JackHCC/Computer-Vision-And-Augmented-Reality-Homework)【计算机视觉与增强现实】
 - Natural Language Processing【自然语言处理】
 
 
