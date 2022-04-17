@@ -23,6 +23,9 @@
 - [English](./English/README.md)【英语】
   - [Web](https://blog.creativecc.cn/posts/Lesson-English.html)
   - [Key Sentence](./English/Key_Sentence.pdf)
+- [Natural Language Processing](https://blog.creativecc.cn/posts/Lesson-Natural-Language-Process.html)【自然语言处理】
+  - [Web](https://blog.creativecc.cn/posts/Lesson-Natural-Language-Process.html)
+
 
 ## 课程作业
 
@@ -30,11 +33,13 @@
 - [IC Design Homework](https://github.com/JackHCC/Digital-Integrated-Circuit-Design)【集成电路设计】
 - [Introduction to advanced technology of integrated circuit](./Introduction_to_Integrated_Circuits)【集成电路前沿技术导论】
 - [Computer Vision And Augmented Reality](https://github.com/JackHCC/Computer-Vision-And-Augmented-Reality-Homework)【计算机视觉与增强现实】
-- Natural Language Processing【自然语言处理】
+- [Natural Language Processing](https://github.com/JackHCC/Chinese-Tokenization)【自然语言处理】
+
+- Machine Learning【机器学习】
 
 
 
-**注：以上作业和分享仅供参考，杜绝原封不动的搬运！**
+**注：以上作业题解和知识点分享仅供参考学习，杜绝原封不动的搬运！**
 
 
 
