@@ -23,8 +23,13 @@
 - [English](./English/README.md)【英语】
   - [Web](https://blog.creativecc.cn/posts/Lesson-English.html)
   - [Key Sentence](./English/Key_Sentence.pdf)
+- [Socialism](./Socialism_of_China/Socialism_of_China.md)【新时代中国特色社会主义】
+  - [Web](https://blog.creativecc.cn/posts/Lesson-Socialism.html)
+  - [PDF](./Socialism_of_China/Socialism_of_China.pdf)
+
 - [Natural Language Processing](https://blog.creativecc.cn/posts/Lesson-Natural-Language-Process.html)【自然语言处理】
   - [Web](https://blog.creativecc.cn/posts/Lesson-Natural-Language-Process.html)
+
 
 
 ## 课程作业
